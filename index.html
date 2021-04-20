@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>後端資料</title>
+</head>
+<body>
+    <nav>
+        <div class="lightSwitch">
+            <button class="light">亮</button>
+            <button class="dark">暗</button>
+        </div>
+        <div class="clear"></div>
+    </nav>
+    <div class="caseWindow">
+        <h1 class="title"></h1>
+        <div class="modelWindow flex_center">
+            <main class="case_info box"></main>
+            <aside class="curInf box">
+                <div class="inverter_list transition_all"></div>
+            </aside>
+        </div>
+
+        <div class="weather flex_center transition_all">
+            <ul class="time_scroll"></ul>
+            <div class="weather_show"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
