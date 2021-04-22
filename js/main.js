@@ -49,7 +49,9 @@ $(document).ready(function(){
 
                 function check_weather(index){
                     if(weather_condition[index] === '晴'){ $('.weather_show > h1').css('color', 'orange') }
-                    if(weather_condition[index] === '多雲'){ $('.weather_show > h1').css('color', 'gray') }                
+                    if(weather_condition[index] === '陰'){ $('.weather_show > h1').css('color', 'dimgray') } 
+                    if(weather_condition[index] === '多雲'){ $('.weather_show > h1').css('color', 'lightsteelblue') }
+                    if(weather_condition[index] === '有雨'){ $('.weather_show > h1').css('color', 'lightskyblue') }                
                 }
 
                 check_weather(0)
